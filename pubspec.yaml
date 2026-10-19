@@ -1,0 +1,11 @@
+name: _
+publish_to: none
+
+environment:
+  sdk: '^3.10.3'
+
+workspace:
+  - weakspot_client
+  - weakspot_server
+  - weakspot_flutter
+

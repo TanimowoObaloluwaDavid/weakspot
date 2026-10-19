@@ -1,0 +1,6 @@
+class: BuildResult
+fields:
+  subject: String
+  topicCount: int
+  questionCount: int
+  firstRound: List<Question>

@@ -1,0 +1,7 @@
+class: Topic
+table: topics
+fields:
+  name: String
+  subject: String
+  position: int
+  estimatedMinutes: int?

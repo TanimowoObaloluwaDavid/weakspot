@@ -1,0 +1,8 @@
+class: TopicMastery
+fields:
+  topicId: int
+  name: String
+  subject: String
+  attempted: int
+  correct: int
+  questionCount: int

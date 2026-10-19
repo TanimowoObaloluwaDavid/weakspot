@@ -1,0 +1,10 @@
+class: Attempt
+table: attempts
+fields:
+  question: Question?, relation
+  ### Denormalised so mastery can be computed with one filtered query per topic
+  ### instead of a join through questions on every read.
+  topic: Topic?, relation
+  isCorrect: bool
+  selectedIndex: int
+  answeredAt: DateTime

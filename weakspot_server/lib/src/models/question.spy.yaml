@@ -1,0 +1,9 @@
+class: Question
+table: questions
+fields:
+  topic: Topic?, relation
+  prompt: String
+  options: List<String>
+  correctIndex: int
+  explanation: String
+  position: int

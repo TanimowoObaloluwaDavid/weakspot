@@ -1,0 +1,6 @@
+class: MasteryReport
+fields:
+  topics: List<TopicMastery>
+  totalAttempted: int
+  totalCorrect: int
+  weakCount: int

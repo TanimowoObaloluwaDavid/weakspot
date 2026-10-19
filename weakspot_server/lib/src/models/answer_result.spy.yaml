@@ -1,0 +1,8 @@
+class: AnswerResult
+fields:
+  isCorrect: bool
+  correctIndex: int
+  explanation: String
+  topicName: String
+  topicPercent: int
+  isTopicWeak: bool
